@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwtkyconkq81g"]
+
+[ext_resource type="Texture2D" uid="uid://cbrm3exthmfub" path="res://addons/bullethellenemy/Images/particule.png" id="1_18ws5"]
+
+[sub_resource type="Curve" id="Curve_a7ad6"]
+_data = [Vector2(0, 0.559437), 0.0, 0.0, 0, 0, Vector2(0.506739, 0.274765), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[node name="ParticleExemple" type="Node2D"]
+scale = Vector2(0.698637, 0.698637)
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+amount = 50
+lifetime = 0.6
+local_coords = true
+texture = ExtResource("1_18ws5")
+gravity = Vector2(0, -980)
+orbit_velocity_min = -1.15
+orbit_velocity_max = 0.95
+scale_amount_min = 0.5
+scale_amount_max = 0.5
+scale_amount_curve = SubResource("Curve_a7ad6")

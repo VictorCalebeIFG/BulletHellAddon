@@ -1,0 +1,27 @@
+[gd_scene load_steps=6 format=3 uid="uid://bddghh1ry2u75"]
+
+[ext_resource type="Script" path="res://addons/bullethellenemy/EnemyLaserBullet.gd" id="1_trsrf"]
+[ext_resource type="PackedScene" uid="uid://cwtkyconkq81g" path="res://addons/bullethellenemy/Examples/particle_example.tscn" id="2_54xnk"]
+[ext_resource type="PackedScene" uid="uid://bv2djcmqndeby" path="res://addons/bullethellenemy/Examples/particle_exemple_2.tscn" id="3_boc1p"]
+[ext_resource type="Texture2D" uid="uid://cgnh5dir7embu" path="res://addons/bullethellenemy/Images/laserExample.svg" id="4_v4jc7"]
+
+[sub_resource type="Curve" id="Curve_drd2o"]
+_data = [Vector2(0.00261097, 0.48392), 0.0, 0.0, 0, 0, Vector2(0.780679, 1), -1.35244, -1.35244, 0, 0, Vector2(1, 0.529648), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[node name="Laser" type="Node2D"]
+
+[node name="EnemyLaserBullet" type="RayCast2D" parent="." node_paths=PackedStringArray("my_line2d")]
+target_position = Vector2(0, -500)
+script = ExtResource("1_trsrf")
+distance = 500
+my_line2d = NodePath("Line2D")
+on_start = ExtResource("2_54xnk")
+on_end = ExtResource("3_boc1p")
+
+[node name="Line2D" type="Line2D" parent="EnemyLaserBullet"]
+points = PackedVector2Array(0, 0, 0, -500)
+width = 40.0
+width_curve = SubResource("Curve_drd2o")
+texture = ExtResource("4_v4jc7")
+texture_mode = 1

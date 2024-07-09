@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://casohc8nu7xtw"]
+
+[ext_resource type="Texture2D" uid="uid://nfop8w63t82g" path="res://addons/bullethellenemy/icons/Bullet.svg" id="2_qiimm"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tcobi"]
+radius = 34.1539
+
+[node name="Bullet_type_1" type="Area2D"]
+scale = Vector2(0.351351, 0.351351)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2.84616, 0)
+shape = SubResource("CircleShape2D_tcobi")
+
+[node name="Bullet" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(2.5, 2.5)
+texture = ExtResource("2_qiimm")

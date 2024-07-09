@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://bv2djcmqndeby"]
+
+[ext_resource type="Texture2D" uid="uid://cbrm3exthmfub" path="res://addons/bullethellenemy/Images/particule.png" id="1_clxa8"]
+
+[node name="ParticleExemple2" type="Node2D"]
+scale = Vector2(0.228956, 0.228956)
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+rotation = 1.61401
+scale = Vector2(0.812905, 0.812905)
+amount = 30
+lifetime = 0.5
+local_coords = true
+texture = ExtResource("1_clxa8")
+gravity = Vector2(0, 0)
+initial_velocity_min = 184.62
+initial_velocity_max = 1000.0

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20"
+   height="20"
+   viewBox="0 0 5.2916665 5.2916666"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="Bullet_Icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="16.549473"
+     inkscape:cx="1.571047"
+     inkscape:cy="15.982382"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="star"
+       style="fill:#ffcc00;stroke:#000000;stroke-width:0.0649999;stroke-dasharray:none;stroke-opacity:1"
+       id="path7"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="1.2789932"
+       sodipodi:cy="1.1670814"
+       sodipodi:r1="2.0636158"
+       sodipodi:r2="1.0318079"
+       sodipodi:arg1="0.39777085"
+       sodipodi:arg2="1.0260894"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 3.1814959,1.9664522 1.8136425,2.0495652 1.106652,3.2234881 0.60491697,1.9482655 -0.73002214,1.6386397 0.32774193,0.7673959 0.20969467,-0.59788627 1.3651639,0.13887799 2.6271458,-0.39528701 2.283501,0.93130218 Z"
+       inkscape:transform-center-x="0.05325638"
+       inkscape:transform-center-y="0.14571954"
+       transform="translate(1.3909053,1.3749179)" />
+  </g>
+</svg>
